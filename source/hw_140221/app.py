@@ -1,2 +1,4 @@
 def main() -> list:
-    return []
+    # some code
+    a = ['CTF{ASFFFF}', 'CTF{ASDF}']
+    return a
