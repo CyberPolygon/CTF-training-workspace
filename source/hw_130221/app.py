@@ -1,6 +1,7 @@
 import requests
 import re
 
+
 def main() -> list:
     requestvk = requests.get('https://vk.com/lifetrainings?w=wall-171787766_172')
     ctfflags = re.findall(r'CTF\{\w*?}', requestvk.text)
