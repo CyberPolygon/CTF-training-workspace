@@ -11,5 +11,5 @@ def get_flags() -> list:
         return searchFlags
     return []
 
-if __name__ == '__main__':
-    get_flags()
+def main() -> list:
+    return get_flags()
