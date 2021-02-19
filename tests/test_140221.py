@@ -1,9 +1,9 @@
 import pytest
-from source.hw_140221.app import main
+from source.hw_130221.app import main
 import re
 
 
-class TestHomework140221:
+class TestHomework130221:
     def test_content(self):
         r = re.compile(r'^CTF{.*}$')
         assert main() == list(filter(r.match, main()))
