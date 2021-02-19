@@ -12,4 +12,3 @@ def main() -> list:
     file.close()
     return ctfflags
 
-main()
