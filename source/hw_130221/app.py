@@ -3,7 +3,4 @@ import re
 
 
 def main(*args, **kwargs) -> list:
-    r = requests.get('https://vk.com/wall-171787766_172')
-    return re.findall(r'CTF{\w+}', r.text)
-
-
+    return re.findall(r'CTF{\w+}', requests.get('https://vk.com/wall-171787766_172').text)
